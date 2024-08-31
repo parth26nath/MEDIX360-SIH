@@ -3,6 +3,8 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 
 export function Component() {
+  /* Created By Parth Nath Chauhan
+ */
   return (
     <div className="flex min-h-screen flex-col bg-background">
       <header className="sticky top-0 z-40 border-b bg-background">
@@ -135,6 +137,7 @@ export function Component() {
               <p className="mt-2 text-muted-foreground">
                 Ensure optimal inventory levels and seamless restocking with intelligent tracking and forecasting.
               </p>
+              
               <div className="mt-4 flex items-center justify-between">
                 <Button size="sm">Learn More</Button>
                 <TruckIcon className="h-6 w-6 text-primary" />
@@ -261,7 +264,8 @@ function ClipboardListIcon(props) {
   )
 }
 
-
+/* Created By Parth Nath Chauhan
+ */
 function CrossIcon(props) {
   return (
     <svg
@@ -296,6 +300,7 @@ function TruckIcon(props) {
       strokeLinecap="round"
       strokeLinejoin="round"
     >
+      
       <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2" />
       <path d="M15 18H9" />
       <path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14" />
@@ -303,4 +308,6 @@ function TruckIcon(props) {
       <circle cx="7" cy="18" r="2" />
     </svg>
   )
+  /* Created By Parth Nath Chauhan
+ */
 }
